@@ -1,21 +1,21 @@
 const ai = document.getElementById("ai");
 
-mat.addEventListener("click", mostrarai);
+ai.addEventListener("click", mostrarai);
 
 function mostrarai (){
-carregarPagina("calculadora/calculadora.html")
+carregarPagina("AutomacaoIndustrial/ai.html")
 }
 
 function carregarPagina(url) {
     document.getElementById("conteudoFrame").src = url;
 }
 
-const dom = document.getElementById("dom");
+const bd = document.getElementById("bd");
 
-dom.addEventListener("click", mostrardom);
+bd.addEventListener("click", mostrarbd);
 
-function mostrardom(){
-    carregarPagina("dom/dom.html")
+function mostrarbd (){
+    carregarPagina("BancoDeDados/bd.html")
 }
 
 function carregarPagina(url) {

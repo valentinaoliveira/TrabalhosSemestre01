@@ -1,13 +1,13 @@
 *{
     padding: 0px;
     margin: 0px;
-    overflow-x: hidden;
+    overflow: hidden;
 
     
 }
 
 .cabecalho {
-    background-color:#CF3EE7;
+    background-color: #ab94e9;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@
 }
 
 .menu{
-    background-color: #CF3EE7;
+    background-color: #ab94e9;
     width: 332px;
     height: 531px;
     text-align: center;
@@ -44,7 +44,7 @@
 #ai{
     width: -100px;
     background-color: rgb(230, 157, 219);
-    height: 55px;
+    height: 50px;
     border-radius: 10px;
     border: 1px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -59,7 +59,7 @@
 #bd{
     width: -100px;
     background-color: rgb(230, 157, 219);
-    height: 55px;
+    height: 50px;
     border-radius: 10px;
     border: 1px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -68,12 +68,29 @@
 #bd:hover{
     background-color: rgba(66, 63, 63, 0.258);
     cursor: pointer;
+
 }
+
+#cd{
+    width: -100px;
+    background-color: rgb(230, 157, 219);
+    height: 50px;
+    border-radius: 10px;
+    border: 1px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#cd:hover{
+    background-color: rgba(66, 63, 63, 0.258);
+    cursor: pointer;
+
+}
+
 
 #dw{
     width: -100px;
     background-color: rgb(230, 157, 219);;
-    height: 55px;
+    height: 50px;
     border-radius: 10px;
     border: 1px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -87,7 +104,7 @@
 #lp{
     width: -100px;
     background-color: rgb(230, 157, 219);
-    height: 55px;
+    height: 50px;
     border-radius: 10px;
     border: 1px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -101,11 +118,9 @@
 
 .conteudo{
     background-color: #FACAEA;
-    width: -912px;
-    height: 531px;
+    width: -912%;
+    height: 89vh;
     text-align: center;
-    float: right 193px;
-    
-
-
+    float: right 193%;
+    overflow: hidden;
 }

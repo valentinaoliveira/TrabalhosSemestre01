@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+
+    
+}
+
+
+.cabecalho {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 30vh;
+    padding: 15px 0;
+    
+}
+
+
+
+.texto{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+}
+
+h4{
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+h3{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+
+.imagem{
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+    
+}
+
+
+ul li {
+    margin-bottom: 10px; 
+}
+
+.imagem02{
+    height: 150px;
+    width: 450px;
+    float: right;
+    margin-left: 10px; 
+    padding: 15px;
+    
+}
+
+.imagem03{
+    height: 200px;
+    width: 400px;
+    float: left;
+    margin-right: 20px; 
+    padding: 15px;
+
+}
