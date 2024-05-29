@@ -1,45 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banco De Dados</title>
     <link rel="stylesheet" href="bd.css">
-    
-    
+
+
 <body>
     <div class="cabecalho">
         <h2>Banco de Dados</h2>
-        
+
     </div>
-       
 
 
+
+    </div>
+    </div>
+    <div class="conteudo">
+        <div class="texto">
+            <h3>Um banco de dados consiste em uma compilação organizada de informações ou dados estruturados, os quais
+                são guardados de forma que possam ser prontamente acessados, administrados e atualizados.</h3>
+
+            <img src="bd.imagem.png" alt="" class="imagem">
+            <h3>O diagrama er (entidade-relacionamento) ele é um desenho visual que demonstra a organização lógica de um
+                sistema que armazena informações e facilita o entendimento. </h3>
+            <ul>
+                <img src="Aula 01.drawio.png" alt="" class="imagem02">
+                <li>A entidade é uma das características do diagrama er, ela é representada por retângulo. Tendo alguns
+                    dados da pessoa que faz a compra no sistema ou os dados de algum produto a venda disponível no
+                    estoque. </li>
+                <li>Já os atributos é um aspecto presente na entidade como por exemplo: código do cliente, primeiro e o
+                    último nome, cpf e etc para pessoas. Já para produtos à venda seria o código do produto, nome,
+                    marca, categoria, preço e etc. Sendo representado por um retângulos </li>
+                <img src="bd.er.png" alt="" class="imagem03">
+                <li>Outrossim, relacionamento demonstra como as as entidades estão associadas conectando-as. Podendo ser
+                    N:N (muitos-para-muitos, por apeas abrigar foreing keys ela é denominada como entidade fraca),N:1
+                    (muitos-para-um, a foreing key sempre fica do lado do N), 1:1 (um-para-um). Se caracterizando por um
+                    losango conectando as entidades. </li>
+                <li>A Primary Key (chave primária) tem valor único e é usada de maneira única para inter-relacionar as
+                    tabelas. Para identifica-la normalmente ela é sublinhada no diagrama.</li>
+                <li>A Foreign key (chave estrangeira) é a primary key importada nas outra entidades.</li>
+            </ul>
+            <h3> </h3>
+            <h3>Normalização é o processo de organização da tabela de dados para eliminar repetições e garantir
+                segurança e ajuda facilitando a manutenção caso necessário. </h3>
+            <p>1FN (Primeira forma normal)- Contém valores atômicos.</p>
+            <img src="bd.1fn.png" alt="" class="imagem04">
+
+            <p>2FN (Segunda forma normal)- Não contém dependências parciais.</p>
+            <img src="bd.2fn.png" alt="" class="imagem05">
+
+            <p>3FN (Terceira forma normal)- Não contém dependência transitivas.</p>
+            <img src="bd.3fn.png" alt="" class="imagem06">
+
+            <h3>SQL é utilizado para manipular e gerenciar bandos de dados, o sistema é padronizado universalmente e é
+                possível executar as funções de forma rápida e eficiente.</h3>
+
+            <div class="container-imagem7">
+                <img src="bd.sqlpng.png" alt="" class="imagem07">
+                <div class="container2-imagem7">
+                    <h2>Principais funções: </h2>
+                    <ul>
+                        Consultar dados =
+                        <li>“Select” ( selecionar alguma coluna ou aplicar filtro).</li>
+                        Manipulação de dados =
+                        <li>“Insert” (acrescentar mais linhas a tabela)</li>
+                        <li>“Update” (atualizar tabela)</li>
+                        <li>“Delete” (deletar informações desnecessárias).</li>
+                        Definição de dados :
+                        <li>“Create” (criar tabela)</li>
+                        <li>“Alter” (alterar)</li>
+                        <li>“Drop” (excluir alguma informação).</li>
+                    </ul>
+
+                </div>
             </div>
-        </div>
-        <div class="conteudo">
-            <div class="texto">
-                <h3>Um banco de dados consiste em uma compilação organizada de informações ou dados estruturados, os quais são guardados de forma que possam ser prontamente acessados, administrados e atualizados.</h3>
-                    
-                    <img src="bd.imagem.png" alt="" class="imagem">
-                        <h3>O diagrama er (entidade-relacionamento) ele é um desenho visual que demonstra a organização lógica de um sistema que armazena informações e facilita o entendimento.  </h3>
-                                <ul>
-                                    <img src="Aula 01.drawio.png" alt="" class="imagem02">
-                                        <li>A entidade é uma das características do diagrama er, ela é representada por retângulo. Tendo alguns dados  da pessoa que faz a compra no sistema ou os dados de algum produto a venda disponível no estoque. </li>
-                                        <li>Já os atributos é um aspecto presente na entidade como por exemplo: código do cliente, primeiro e o último nome, cpf e etc para pessoas. Já para produtos à venda seria o código do produto, nome, marca, categoria, preço e etc.  Sendo representado por um retângulos </li>
-                                    <img src="bd.er.png" alt="" class="imagem03">
-                                        <li>Outrossim, relacionamento demonstra como as as entidades estão associadas conectando-as. Podendo ser N:N (muitos-para-muitos),N:1 (muitos-para-um), 1:1 (um-para-um). Se caracterizando por um losango conectando as entidades. </li>
-                                        <li>A Primary Key (chave primária) tem valor único e é usada de maneira única para inter-relacionar as tabelas. Para identifica-la normalmente ela é sublinhada no diagrama.</li>
-                                        <li>A Foreign key (chave estrangeira) é a primary key importada nas outra entidades.</li>
-                                </ul>
-                    
-                          
-                   
-            
+           <button class="glitter" onclick="redirecionar()">GitHub</button>
+
+
+
+
+
+
+
+
+
             <iframe id="conteudoFrame" frameborder="0" width="100%" height="100%"></iframe>
         </div>
     </div>
-    
-    <script src="bd.js"></script>  
+
+    <script src="bd.js"></script>
 </body>
+
 </html>
