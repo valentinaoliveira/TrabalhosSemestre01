@@ -54,7 +54,9 @@
 #ai:hover{
     background-color: rgba(66, 63, 63, 0.258);
     cursor: pointer;
+    
 }
+
 
 #bd{
     width: -100px;

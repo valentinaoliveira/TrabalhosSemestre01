@@ -18,6 +18,15 @@
     
 }
 
+.conteudo{
+    background-color: #FACAEA;
+    width: -912%;
+    
+    text-align: center;
+    float: right 193%;
+    overflow: hidden;
+}
+
 
 
 .texto{
@@ -114,6 +123,8 @@ ul li {
     gap: 5px;
     padding: 15px;
 }
+
+
 
 .glitter{
     display: flex;

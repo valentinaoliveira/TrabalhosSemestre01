@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;  
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 20px;
+    padding: 15px 0;
+}
+
+.conteudo{
+    background-color: #FACAEA;
+    width: -912px;
+    
+    text-align: center;
+    float: right 193px;
+}
+
+.texto{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.img01{
+    width: 1200px;
+    height: 300px;
+    padding: 15px;
+    float: left;
+    margin-right:20px;
+
+}
+
+.texto02{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 40px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.img02{
+    width: 600px;
+    height: 250px;
+    padding: 15px;
+  
+    
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+.texto03, .texto04 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.texto05{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 40px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+
+.img03{
+    width: 500px;
+    height: 150px;
+    padding: 15px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+.glitter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    margin-left: 1%;
+    height: 50px;
+    width: 98%;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+}
