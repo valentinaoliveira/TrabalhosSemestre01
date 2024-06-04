@@ -1,9 +1,9 @@
-*{
+*{ /* esse vai mudar*/
     padding: 0px;
     margin: 0px;  
 }
 
-.cabecalho {
+.cabecalho { /* esse vai mudar*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +12,7 @@
     padding: 15px 0;
 }
 
-.conteudo{
+.conteudo{ /* esse vai mudar*/
     background-color: #FACAEA;
     width: -912px;  
     text-align: center;
