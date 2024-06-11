@@ -22,14 +22,15 @@ function carregarPagina(url) {
     document.getElementById("conteudoFrame").src = url;
 }
 
-const inss = document.getElementById("inss");
+const dw = document.getElementById("dw");
 
-inss.addEventListener("click", mostrarinss);
+dw.addEventListener("click", mostrardw);
 
-function mostrarinss(){
-    carregarPagina("inss/inss.html")
+function mostrardw(){
+    carregarPagina("DesenvolvimetoWeb/dw.html")
 }
 
 function carregarPagina(url) {
     document.getElementById("conteudoFrame").src = url;
 }
+
