@@ -126,18 +126,27 @@ textarea{
     flex-direction: row-reverse;
 }
 
-.texto06{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    margin: 10px;
-    text-size-adjust: 12px;
-    font-weight: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-right: 50px;
-    justify-items: auto;
+.texto07 {
+    font-family: 'Times New Roman', Times, serif; /* Fonte clássica e elegante */
+    text-align: center; /* Centralizar o texto */
+    margin: 15vh 10px 10px 53vh; /* Margens ajustadas */
+    font-size: 16px; /* Tamanho da fonte ajustado */
+    font-weight: normal; /* Peso da fonte normal */
+    display: flex; /* Usar flexbox para centralização */
+    justify-content: center; /* Centralizar conteúdo horizontalmente */
+    align-items: center; /* Centralizar conteúdo verticalmente */
+    flex-direction: column; /* Disposição dos itens em coluna */
+    margin-right: 18vh;
+    float: left;
+    margin-top: 10vh;
+}
+
+.img06{
+    width: 200px;
+    height: 200px;
+    margin-left: 15vh;
+    float: left;
+    margin-top: -25vh;
 }
 
   
@@ -159,6 +168,7 @@ textarea{
     background-color: #000000;
     color: white;
     margin-left: 5vh;
+    margin-top: 5vh;
 }
 
 
