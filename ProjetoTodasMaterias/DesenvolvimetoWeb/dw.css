@@ -70,6 +70,79 @@ h3 {
     margin-top: 5vh;
 }
 
+
+
+.align-pair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.img04, .img05 {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+.img03, .img04,.img05 {
+    width: 100px;
+    height: 100px;
+    margin-right: -50px;
+    margin-top: -10px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.texto03, .texto04, .texto05, .texto06 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+    text-size-adjust: 12px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+    justify-items: auto;
+}
+
+textarea{
+    resize: none;
+    background-color: rgb(230, 157, 219);
+    color: black;
+    width: 600px;
+    
+}
+
+.css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.texto06{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+    text-size-adjust: 12px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+    justify-items: auto;
+}
+
+  
+
+
 .glitter {
     display: flex;
     flex-direction: row;
@@ -88,29 +161,7 @@ h3 {
     margin-left: 5vh;
 }
 
-.align-pair {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-}
 
-.img03, .img04, .img05 {
-    width: 100px;
-    height: 100px;
-    margin-right: 300px;
-}
 
-.texto03, .texto04, .texto05, .texto06 {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    margin: 10px;
-    text-size-adjust: 12px;
-    font-weight: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-right: 300px;
-    justify-items: auto;
-}
+
+
