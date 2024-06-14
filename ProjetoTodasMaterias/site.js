@@ -2,6 +2,8 @@ const ai = document.getElementById("ai");
 const bd = document.getElementById("bd");
 const dw = document.getElementById("dw");
 const lp = document.getElementById("lp");
+const cd = document.getElementById("cd");
+
 
 ai.addEventListener("click", function() {
     carregarPagina("AutomacaoIndustrial/ai.html");
@@ -17,6 +19,10 @@ dw.addEventListener("click", function() {
 
 lp.addEventListener("click", function() {
     carregarPagina("LinguagemDeProgramacao/lp.html");
+});
+
+cd.addEventListener("click", function() {
+    carregarPagina("CienciaDeDados/cd.html");
 });
 
 function carregarPagina(url) {
