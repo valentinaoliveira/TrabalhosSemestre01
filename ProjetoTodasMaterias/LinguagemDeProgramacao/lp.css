@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    
 }
 
 .cabecalho {
@@ -18,48 +19,245 @@
     height: 89vh;
     text-align: center;
     float: right 193%;
-    overflow: hidden;
+}
+
+.texto00{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    padding: 5vh;
 }
 
 .texto01{
     font-family:'Times New Roman', Times, serif;
-    text-align: justify;
-    margin: 20px 20px; 
-    text-size-adjust: 12px;
-    text-align: center;
-    font-weight: normal;
-    margin-left: 30vh;
-    float: right;
-    
-
+    text-align: justify; 
+    font-weight: normal;    
 }
 
-.img01{
-    width: 50vh;
-    height: 50vh;
-    margin-right: 10vh;
-    float: left;
-   padding: 10vh;
+.container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Garante que a altura do contêiner ocupe toda a tela */
 }
+
+
+.img01 {
+   width: 30vh;
+   height: 30vh;
+}
+
 
 .texto02{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.img02{
+    width: 30vh;
+    height: 30vh;
+}
+
+.texto03{
     font-family:'Times New Roman', Times, serif;
     text-align: justify;
     margin: 20px 20px; 
     text-size-adjust: 12px;
     text-align: center;
     font-weight: normal;
-    margin-right: 30vh;
-    float: left;
-}
-
-.img02{
-    width: 10vh;
-    height: 10vh;
-    margin-left: 10vh;
-    float: right;
     padding: 10vh;
 }
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.textarea{
+    background-color: rgb(230, 157, 219);
+    color: black;
+    width: 600px;
+    resize: none;
+    gap: -100vh;
+}
+
+.texto04{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #ab94e9;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.texto05{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.img03{
+    width: 90vh;
+    height: 60vh;
+    padding: 15px;
+    float: left;
+    margin-right:20px;
+    align-items: center;
+    margin-left: 35vh;
+}
+
+.texto06{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-left: 20px;
+}
+
+.img04{
+    width: 150vh;
+    height: 50vh;
+    padding: 15px;
+    
+}
+
+.texto07{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+   margin-left: 38vh;
+}
+
+.texto08{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto09{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.imagens, .textos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explicacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img05{
+    width: 100vh;
+    height: 50vh;
+    align-items: center;
+    gap: 10vh;
+}
+
+
+.texto10{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img06{
+    width: 80vh;
+    height: 50vh;
+    padding: 15px; 
+}
+
+
 
 .glitter {
     display: flex;
@@ -77,5 +275,6 @@
     background-color: #000000;
     color: white;
     margin-left: 5vh;
-    margin-top: 5vh;
+    margin-top: 520vh;
 }
+

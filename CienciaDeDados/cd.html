@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico de Sobreviventes do Titanic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gráfico de Sobreviventes do Titanic</h1>
+    </header>
+    
+    <section id="visualizations">
+        <h2>Distribuição de Sobreviventes por Classe</h2>
+        <canvas id="myChart" width="800" height="400"></canvas>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script>
+        // Carregar o arquivo Excel
+        var url = 'https://github.com/PinkWink/ML_tutorial/raw/master/dataset/titanic.xls';
+        var req = new XMLHttpRequest();
+        req.open('GET', url, true);
+        req.responseType = 'arraybuffer';
+
+        req.onload = function(e) {
+            var data = new Uint8Array(req.response);
+            var workbook = XLSX.read(data, {type: 'array'});
+            var sheet_name_list = workbook.SheetNames;
+            var xlData = XLSX.utils.sheet_to_json(workbook.Sheets[sheet_name_list[0]]);
+
+            // Processar os dados para o gráfico
+            var class1 = 0, class2 = 0, class3 = 0;
+            xlData.forEach(function(row) {
+                if (row['survived'] == 1) {
+                    if (row['pclass'] == 1) {
+                        class1++;
+                    } else if (row['pclass'] == 2) {
+                        class2++;
+                    } else if (row['pclass'] == 3) {
+                        class3++;
+                    }
+                }
+            });
+
+            // Criar o gráfico com Chart.js
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['1ª Classe', '2ª Classe', '3ª Classe'],
+                    datasets: [{
+                        label: 'Sobreviventes por Classe',
+                        data: [class1, class2, class3],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        req.send();
+    </script>
+</body>
+</html>
