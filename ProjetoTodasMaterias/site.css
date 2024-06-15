@@ -1,128 +1,89 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     overflow: hidden;
-
-    
 }
 
 .cabecalho {
     background-color: #ab94e9;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    min-width: 275px;
-    padding: 15px 0;
-    
-   
+    padding: 15px;
 }
 
-.menu{
+.cabecalho h1 {
+    margin: 0;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+
+.menu {
     background-color: #ab94e9;
-    width: 332px;
-    height: 531px;
+    width: 100%;
     text-align: center;
-    float: left;
-   
-    
-    
+    display: none;
+    flex-direction: column;
+    align-items: center;
 }
 
-.materias{
+.materias {
     width: 95%;
-    height: 62%;
-    margin: 5px 8px ;
     padding: 20px 0;
-    background-color: rgb#CF3EE7;
+    background-color: #ab94e9;
     border-radius: 10px;
     display: grid;
     gap: 15px;
-
 }
 
-#ai{
-    width: -100px;
+button {
+    width: 90%;
     background-color: rgb(230, 157, 219);
     height: 50px;
     border-radius: 10px;
-    border: 1px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
-}
-
-#ai:hover{
-    background-color: rgba(66, 63, 63, 0.258);
+    border: 1px solid transparent;
+    box-shadow: rgba(134, 72, 174, 0.2) 0px 2px 8px 0px;
     cursor: pointer;
-    
+    margin-left: 50px;
 }
 
-
-#bd{
-    width: -100px;
-    background-color: rgb(230, 157, 219);
-    height: 50px;
-    border-radius: 10px;
-    border: 1px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+button:hover {
+    background-color: ab94e9;
 }
 
-#bd:hover{
-    background-color: rgba(66, 63, 63, 0.258);
-    cursor: pointer;
-
-}
-
-#cd{
-    width: -100px;
-    background-color: rgb(230, 157, 219);
-    height: 50px;
-    border-radius: 10px;
-    border: 1px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-#cd:hover{
-    background-color: rgba(66, 63, 63, 0.258);
-    cursor: pointer;
-
-}
-
-
-#dw{
-    width: -100px;
-    background-color: rgb(230, 157, 219);;
-    height: 50px;
-    border-radius: 10px;
-    border: 1px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-#dw:hover{
-    background-color: rgba(66, 63, 63, 0.258);
-    cursor: pointer;
-}
-
-#lp{
-    width: -100px;
-    background-color: rgb(230, 157, 219);
-    height: 50px;
-    border-radius: 10px;
-    border: 1px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-#lp:hover{
-    background-color: rgba(66, 63, 63, 0.258);
-    cursor: pointer;
-}
-
-
-.conteudo{
-    background-color: #FACAEA;
-    width: -912%;
+.conteudo {
+    background-color: #facaea;
+    width: 100%;
     height: 89vh;
     text-align: center;
-    float: right 193%;
+}
+
+
+.foto-perfil {
+    
     overflow: hidden;
+    background-color: #ab94e9;
+    width: 75px;
+    height: 75px;
+    border-radius: 120px;
+}
+
+
+.foto-perfil img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
 }

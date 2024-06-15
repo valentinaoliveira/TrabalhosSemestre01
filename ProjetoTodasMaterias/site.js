@@ -1,30 +1,23 @@
-const ai = document.getElementById("ai");
-const bd = document.getElementById("bd");
-const dw = document.getElementById("dw");
-const lp = document.getElementById("lp");
-const cd = document.getElementById("cd");
+const sections = [
+    { id: "ai", url: "AutomacaoIndustrial/ai.html" },
+    { id: "bd", url: "BancoDeDados/bd.html" },
+    { id: "dw", url: "DesenvolvimetoWeb/dw.html" },
+    { id: "lp", url: "LinguagemDeProgramacao/lp.html" },
+    { id: "cd", url: "CienciaDeDados/cd.html" }
+];
 
-
-ai.addEventListener("click", function() {
-    carregarPagina("AutomacaoIndustrial/ai.html");
-});
-
-bd.addEventListener("click", function() {
-    carregarPagina("BancoDeDados/bd.html");
-});
-
-dw.addEventListener("click", function() {
-    carregarPagina("DesenvolvimetoWeb/dw.html");
-});
-
-lp.addEventListener("click", function() {
-    carregarPagina("LinguagemDeProgramacao/lp.html");
-});
-
-cd.addEventListener("click", function() {
-    carregarPagina("CienciaDeDados/cd.html");
-});
-
+// Função para carregar página no iframe
 function carregarPagina(url) {
     document.getElementById("conteudoFrame").src = url;
+}
+
+// Adicionar eventos de clique para cada seção
+sections.forEach(section => {
+    document.getElementById(section.id).addEventListener("click", () => carregarPagina(section.url));
+});
+
+// Função para alternar a exibição do menu
+function toggleMenu() {
+    const menu = document.getElementById('menu');
+    menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
 }

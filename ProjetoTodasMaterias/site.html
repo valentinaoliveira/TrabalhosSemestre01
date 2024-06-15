@@ -5,43 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalho do 1° Semestre</title>
     <link rel="stylesheet" href="site.css">
-    <link rel="stylesheet" href="AutomacaoIndustrial/ai.html">
-    <link rel="stylesheet" href="AutomacaoIndustrial/ai.css">
-    <link rel="stylesheet" href="BancoDeDados/bd.html">
-    <link rel="stylesheet" href="BancoDeDados/bd.css">
-    <link rel="stylesheet" href="LinguagemDeProgramacao/lp.html">
-    <link rel="stylesheet" href="LinguagemDeProgramacao/lp.css">  
-    <link rel="stylesheet" href="CienciaDeDados/cd.html">
-    <link rel="stylesheet" href="CienciaDeDados/cd.css">  
-    
+</head>
 <body>
     <div class="cabecalho">
+
+        <section class="foto-perfil">
+            <img src="./imagens/Valentina.jpg" alt="Foto de Valentina" class="perfil">
+        </section>
+        
         <h1>1° Semestre</h1>
-    </div>
-        <div class="menu">
-           <div class="materias">
 
-                <button id="ai">Automação Industrial</button>
-
-                <button id="bd">Banco de Dados</button>
-
-                <button id="cd">Ciência de Dados</button>
-
-                <button id="dw">Desenvolvimento Web</button>
-
-                <button id="lp">Linguagem de Programação</button>
-            </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </div>
-        <div class="conteudo">
-            <iframe id="conteudoFrame" frameborder="0" width="100%" height="100%"></iframe>
-        </div>
+
     </div>
+
+
+    <div class="menu" id="menu">
+
+        <section class="materias">
+            <button id="ai" onclick="loadContent('AutomacaoIndustrial/ai.html')">Automação Industrial</button>
+            <button id="bd" onclick="loadContent('BancoDeDados/bd.html')">Banco de Dados</button>
+            <button id="cd" onclick="loadContent('CienciaDeDados/cd.html')">Ciência de Dados</button>
+            <button id="dw" onclick="loadContent('DesenvolvimentoWeb/dw.html')">Desenvolvimento Web</button>
+            <button id="lp" onclick="loadContent('LinguagemDeProgramacao/lp.html')">Linguagem de Programação</button>
+        </section>
+
+    </div>
+
+    <div class="conteudo">
+
+        
+
+        <iframe id="conteudoFrame" frameborder="0" width="100%" height="100%"></iframe>
+
+    </div>
+
     
     <script src="site.js"></script>
-    <script src="AutomacaoIndustrial/ai.js"></script>  
-    <script src="BancoDeDados/bd.js"></script>
-    <script src="DesenvolvimetoWeb/dw.js"></script>
-    <script src="LinguagemDeProgramacao/lp.js"></script>
-    <script src="CienciaDeDados/cs.js"></script>
 </body>
 </html>

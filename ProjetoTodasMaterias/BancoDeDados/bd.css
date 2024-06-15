@@ -1,9 +1,6 @@
 *{/* esse vai mudar*/
     padding: 0px;
     margin: 0px;
-   
-
-    
 }
 
 
@@ -14,19 +11,17 @@
     align-items: center;
     width: 100%;
     min-width: 30vh;
-    padding: 15px 0;
-    
+    padding: 15px 0;  
 }
+
 
 .conteudo{/* esse vai mudar*/
     background-color: #FACAEA;
     width: -912%;
-    
     text-align: center;
     float: right 193%;
     overflow: hidden;
 }
-
 
 
 .texto{
@@ -38,10 +33,34 @@
     font-weight: normal;
 }
 
+
+.texto01{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 10vh;
+}
+
+
+.texto02{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 10vh;
+}
+
+
 h4{
     font-weight: normal;
     margin-bottom: 12px;
 }
+
 
 h3{
     font-weight: normal;
@@ -49,17 +68,17 @@ h3{
 }
 
 
-.imagem{
-    height: 300px;
-    width: 300px;
-    padding: 15px;
-    
-}
-
-
 ul li {
     margin-bottom: 10px; 
 }
+
+
+.imagem{
+    height: 300px;
+    width: 300px;
+    padding: 15px; 
+}
+
 
 .imagem02{
     height: 150px;
@@ -67,8 +86,8 @@ ul li {
     float: right;
     margin-left: 10px; 
     padding: 15px;
-    
 }
+
 
 .imagem03{
     height: 200px;
@@ -76,16 +95,16 @@ ul li {
     float: left;
     margin-right: 20px; 
     padding: 15px;
-
 }
+
  
 .imagem04{
     height: 150px;
     width: 550px;
     float: center;
-    padding: 15px;
-    
+    padding: 15px; 
 }
+
 
 .imagem05{
     height: 100px;
@@ -94,12 +113,14 @@ ul li {
     padding: 15px;
 }
 
+
 .imagem06{
     height: 100px;
     width: 500px;
     float: center;
     padding: 15px;
 }
+
 
 .imagem07{
     height: 200px;
@@ -109,11 +130,13 @@ ul li {
     padding: 20px;
 }
 
+
 .container-imagem7{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .container2-imagem7{
     display: flex;
@@ -123,7 +146,6 @@ ul li {
     gap: 5px;
     padding: 15px;
 }
-
 
 
 .glitter{

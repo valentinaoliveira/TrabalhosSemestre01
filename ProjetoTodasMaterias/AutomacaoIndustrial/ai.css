@@ -1,9 +1,9 @@
-*{ /* esse vai mudar*/
+*{ 
     padding: 0px;
     margin: 0px;  
 }
 
-.cabecalho { /* esse vai mudar*/
+.cabecalho { 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,12 +12,25 @@
     padding: 15px 0;
 }
 
-.conteudo{ /* esse vai mudar*/
+.conteudo{ 
     background-color: #FACAEA;
     width: -912px;  
     text-align: center;
     float: right 193px;
 }
+
+h3{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
 
 .texto{
     font-family:'Times New Roman', Times, serif;
@@ -32,19 +45,6 @@
     
 }
 
-h3{
-    font-weight: normal;
-    margin-bottom: 20px;
-}
-
-.img01{
-    width: 1200px;
-    height: 300px;
-    padding: 15px;
-    float: left;
-    margin-right:20px;
-
-}
 
 .texto02{
     font-family:'Times New Roman', Times, serif;
@@ -55,19 +55,6 @@ h3{
     font-weight: normal;
 }
 
-.img02{
-    width: 600px;
-    height: 250px;
-    padding: 15px;
-  
-    
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 40px;
-}
 
 .texto03, .texto04 {
     font-family: 'Times New Roman', Times, serif;
@@ -78,6 +65,7 @@ h3{
     flex: 1;
     margin: 0 20px;
 }
+
 
 .texto05{
     font-family:'Times New Roman', Times, serif;
@@ -94,6 +82,21 @@ h3{
 }
 
 
+.img01{
+    width: 1200px;
+    height: 300px;
+    padding: 15px;
+    float: left;
+    margin-right:20px;
+}
+
+
+.img02{
+    width: 600px;
+    height: 250px;
+    padding: 15px;  
+}
+
 
 .img03{
     width: 500px;
@@ -102,7 +105,6 @@ h3{
     float: right;
     margin-left: 20px;
 }
-
 
 
 .glitter{
